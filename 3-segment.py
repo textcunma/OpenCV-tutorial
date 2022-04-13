@@ -1,3 +1,5 @@
+# 参考：https://github.com/zihaozhang9/ENet/blob/58995f1325bf5a3747e6c185a3114c0a576786fd/segment.py
+
 import numpy as np
 import argparse
 import cv2
