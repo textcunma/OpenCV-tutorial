@@ -14,8 +14,8 @@ conda env create -n study -f env.yml
 
 ## 内容
 
-<details>
-<summary>第1回：各種画像処理ライブラリの紹介とアフィン変換</summary>
+
+### 第1回：各種画像処理ライブラリの紹介とアフィン変換
 
 - PIL
 - Numpy
@@ -23,29 +23,26 @@ conda env create -n study -f env.yml
 - アフィン変換(回転,平行移動,拡大縮小)
 
 <img src="./assets/1.png" width="300">
-</details>
 
-<details>
-<summary>第2回：YOLOv3を用いた物体検出</summary>
+
+### 第2回：YOLOv3を用いた物体検出
 
 - OpenCV × YOLOv3
 - 物体検出
 - NMS
 
-<img src="./assets/2.png" width="300">
-</details>
+<img src="./assets/2.png" width="200">
 
-<details>
-<summary>第3回：ENetを用いたセマンティックセグメンテーション</summary>
+
+
+### 第3回：ENetを用いたセマンティックセグメンテーション
 
 - OpenCV × ENet
 - セマンティックセグメンテーション
 
 <img src="./assets/3.png" width="300">
-</details>
 
-<details>
-<summary>第4回：クラスタリングを用いた減色・キー色処理</summary>
+### 第4回：クラスタリングを用いた減色・キー色処理
 
 - OpenCV × k-means(k平均法)
 - クラスタリング
@@ -54,4 +51,3 @@ conda env create -n study -f env.yml
 
 <img src="./assets/4-1.png" width="300">
 <img src="./assets/4-2.png" width="300">
-</details>
