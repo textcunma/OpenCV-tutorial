@@ -40,7 +40,7 @@ conda env create -n study -f env.yml
 - OpenCV × ENet
 - セマンティックセグメンテーション
 
-<img src="./assets/3.png" width="300">
+<img src="./assets/3.png" width="400">
 
 ### 第4回：クラスタリングを用いた減色・キー色処理
 
