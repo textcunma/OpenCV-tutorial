@@ -22,6 +22,7 @@ conda env create -n study -f env.yml
 - OpenCV
 - アフィン変換(回転,平行移動,拡大縮小)
 
+<img src="./assets/1.png" width="300">
 </details>
 
 <details>
@@ -31,6 +32,7 @@ conda env create -n study -f env.yml
 - 物体検出
 - NMS
 
+<img src="./assets/2.png" width="300">
 </details>
 
 <details>
@@ -39,4 +41,17 @@ conda env create -n study -f env.yml
 - OpenCV × ENet
 - セマンティックセグメンテーション
 
+<img src="./assets/3.png" width="300">
+</details>
+
+<details>
+<summary>第4回：クラスタリングを用いた減色・キー色処理</summary>
+
+- OpenCV × k-means(k平均法)
+- クラスタリング
+- 減色処理
+- キー色処理
+
+<img src="./assets/4-1.png" width="300">
+<img src="./assets/4-2.png" width="300">
 </details>

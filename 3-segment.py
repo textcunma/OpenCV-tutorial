@@ -40,7 +40,7 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--model",default="./ENet/enet-cityscapes/enet-model.net",help="モデルパス")
     parser.add_argument("--classes", default="./ENet/enet-cityscapes/enet-classes.txt",help="クラスラベルパス")
-    parser.add_argument("--image", default="./ENet/images/example_01.png",help="入力画像")
+    parser.add_argument("--image", default="./img/car.png",help="入力画像")
     parser.add_argument("--colors", type=str,default="./ENet/enet-cityscapes/enet-colors.txt",help="各クラスに対応した色パス")
     parser.add_argument("--colordisplay",  action='store_false',help="出力画像を合成かカラーマスク画像か")  # デフォルト：True
     args = parser.parse_args()
@@ -64,8 +64,8 @@ if __name__=='__main__':
 
     # 表示
     h,w=img.shape[:2]                                           # 画像の高さと幅を取得
-    img=cv2.resize(img , (int(w*0.3), int(h*0.3)))              # 表示のために変形
-    outputimg=cv2.resize(outputimg , (int(w*0.3), int(h*0.3)))  # 表示のために変形
-    displayimg = cv2.vconcat([img, outputimg])                  # 画像を連結
+    img=cv2.resize(img , (int(w*0.7), int(h*0.7)))              # 表示のために変形
+    outputimg=cv2.resize(outputimg , (int(w*0.7), int(h*0.7)))  # 表示のために変形
+    displayimg = cv2.hconcat([img, outputimg])                  # 画像を連結
     cv2.imshow("display", displayimg)                           # 表示
     cv2.waitKey(0)

@@ -38,6 +38,7 @@ def drawPred(classId, conf, left, top, right, bottom):
     labelSize, _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.5, 1)
     top = max(top, labelSize[1])
     cv2.putText(img, label, (left, top-10), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), thickness=2)
+    print(label)
 
 # NMSを用いた後処理
 def postprocess(img, outs):
@@ -88,7 +89,7 @@ def postprocess(img, outs):
 if __name__=='__main__':
     # 設定
     parser = argparse.ArgumentParser(description='YOLOv3を用いた物体検出')
-    parser.add_argument('--image', type=str, default='./Yolo-Fastest-opencv-dnn/dog.jpg', help='入力画像パス指定')  ##############################
+    parser.add_argument('--image', type=str, default="./img/face.png", help='入力画像パス指定')  ##############################
     args = parser.parse_args()
 
     # ニューラルネットワーク設定
