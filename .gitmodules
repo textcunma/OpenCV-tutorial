@@ -1,0 +1,3 @@
+[submodule "Yolo-Fastest-opencv-dnn"]
+	path = Yolo-Fastest-opencv-dnn
+	url = git@github.com:hpc203/Yolo-Fastest-opencv-dnn.git
