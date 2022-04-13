@@ -32,3 +32,11 @@ conda env create -n study -f env.yml
 - NMS
 
 </details>
+
+<details>
+<summary>第3回：ENetを用いたセマンティックセグメンテーション</summary>
+
+- OpenCV × ENet
+- セマンティックセグメンテーション
+
+</details>
