@@ -51,3 +51,15 @@ conda env create -n study -f env.yml
 
 <img src="./assets/4-1.png" width="300">
 <img src="./assets/4-2.png" width="300">
+
+
+### 第5回：アプリケーション作成
+- Flask x OpenCV
+- カメラ画像を使った画像認識
+- 物体検出
+- セマンティックセグメンテーション
+
+実行コマンド
+```bash
+python ./5-application/app.py
+```
